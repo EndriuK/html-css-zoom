@@ -4,3 +4,47 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+main {
+    height: calc(100vh - 30px) ;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* LAYOUT CLASS */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.col-20 {
+    width: 14%;
+    background-color: red; 
+}
+
+.content {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: green;
+    height: 100px;
+}
