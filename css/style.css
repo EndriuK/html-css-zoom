@@ -69,3 +69,11 @@ img {
     position: relative;
     width: 100%;
 }
+
+#fine-call {
+    color: red;
+}
+
+.tool-bar li {
+    text-align: center;
+}
